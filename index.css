@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  width: 100%;
 }
 /*styles for all buttons */
 .buttons {
@@ -42,11 +43,10 @@
 .header-para {
   width: 634px;
   color: rgba(39, 39, 39, 0.6);
-   font-size: 18px;
-   font-style: normal;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400px;
-  
 }
 .header-image {
   width: 635px;
@@ -54,3 +54,42 @@
   border: 50px 240px 4017px 1045px;
 }
 /* problem -- image adjustment issue */
+/* main sec-1 styles */
+/* .expi {
+  width: 310px;
+  height: 428px;
+} */
+.sec-1-title{
+   margin-top: 200px;
+   margin-bottom: 10px;
+    text-align: center;  
+    }
+.sec-1-para{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sec-1 {
+  width: 1920px;
+  height: 4867px;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.sec-1-items {
+  width: 464px;
+  height: 538px;
+  padding: 100px;
+  justify-content: space-around;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.sectiont-1-para {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
