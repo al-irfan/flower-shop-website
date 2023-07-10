@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*styles for all buttons */
+.buttons {
+  text-align: center;
+  background-color: palevioletred;
+  border: 0px;
+  padding: 20px 43px;
+  border-radius: 5px;
+  width: 150px;
+  color: #fff;
+
+  font-weight: 700;
+}
+
+/* header elements styles */
+
+.headers-elements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1920px;
+  height: 850px;
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.header-info {
+  display: flex;
+  width: 708px;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.header-title {
+  width: 708px;
+  color: #272727;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+}
+.header-para {
+  width: 634px;
+  color: rgba(39, 39, 39, 0.6);
+   font-size: 18px;
+   font-style: normal;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400px;
+  
+}
+.header-image {
+  width: 635px;
+  height: 800px;
+  border: 50px 240px 4017px 1045px;
+}
+/* problem -- image adjustment issue */
