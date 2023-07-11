@@ -62,37 +62,50 @@
   text-align: center;
   margin: 40px;
 }
-/* main sec-2 */
-.flowers-cards {
-  width: 1020px;
-  height: 460px;
-  /* background-color: aquamarine; */
+
+.div-container {
   display: flex;
-  justify-content: center;
+  width: 1120px;
+  height: 428px;
+  justify-content: space-around;
   align-items: center;
-  gap: 50px;
-  margin-left: 450px;
+
+  margin-left: 350px;
+  padding: 0px;
+  
 }
-.flowers-1 {
+.img-1 {
+  background-image: url("flower-shop-assignment/Flower\ Asset/.img-1");
   width: 310px;
   height: 428px;
   border-radius: 300px 300px 0px 0px;
-  background: rgba(71, 125, 17, 0.15);
+  background: rgba(167, 33, 98, 0.15);
+  padding: 0px;
+ 
 }
-
-.flowers-2 {
+.img-2 {
+  background-image: url("flower-shop-assignment/Flower\ Asset/.img-2");
   width: 310px;
   height: 428px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
+  
 }
-.flowers-3 {
+.img-3 {
+  background-image: url("flower-shop-assignment/Flower\ Asset/.img-3");
   width: 310px;
   height: 428px;
-  border-radius: 280px 280px 0px 0px;
-  background: rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+margin-bottom: 0px;
+ 
+
+ 
 }
-.flower-para {
+.para-li {
+  display: flex;
+  justify-content: center;
+  width: 1120px;
   color: #272727;
   text-align: center;
   font-family: Lato;
@@ -101,38 +114,7 @@
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
-  
-}
-/* section 3 */
-.sec-3-elements {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 1920px;
-  height: 620px;
-  border-radius: 8px;
-  background: rgba(229, 84, 115, 0.05);
-}
-.sec-3-info {
-  display: flex;
-  width: 708px;
-  flex-direction: column;
-  flex-shrink: 0;
-  gap: 20px;
-}
-
-.sec-3-para {
-  width: 634px;
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
-  font-style: normal;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 400px;
-}
-.sec-3-image {
-  width: 635px;
-  height: 800px;
-  border: 50px 240px 4017px 1045px;
-  padding: 0px;
-  border-image: 0px;
+  margin-left: 350px;
+  padding: 10px;
+  list-style: none;
 }
