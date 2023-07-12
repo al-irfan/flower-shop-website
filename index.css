@@ -130,11 +130,11 @@
 }
 .sec-3-title {
   color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 .sec-3-para {
   width: 634px;
@@ -153,55 +153,70 @@ line-height: normal;
   border-image: 0px;
 }
 /* this is for sec 4 */
-#sec-4{
-width: 1440px;
-height: 449px;                                 
-border-radius: 8px;
-justify-content: center;
-margin: auto;
-background-position: cover;
-background-repeat: no-repeat;
-background: url('flower-shop-assignment/Flower-Asset/Rectangle\ 9.png');
-}
 .sec-4-top {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin: 40px;
+}
+.sec-4-div-con {
+  width: 1440px;
+  list-style: none;
+  height: 380px;
+  flex-shrink: 0;
+  display: flex;
+  gap: 20px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+/* this is for sec 5 */
+#sec-5 {
+  width: 1440px;
+  height: 449px;
+  border-radius: 8px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 70px;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background: url("flower-shop-assignment/Flower-Asset/Rectangle\ 9.png");
+}
+.sec-5-top {
   width: 700px;
- justify-content: center;
+  justify-content: center;
   text-align: center;
   margin-left: 300px;
-  padding: 50px ;
+  padding: 50px;
 }
-.sec-4-t-title{
+.sec-5-t-title {
   color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
-.sec-4-t-para{
-  color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+.sec-5-t-para {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
-input{
+input {
   width: 700px;
 }
-.sec-4-input{
+.sec-5-input {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-
-
-
-
-
 
 /* this is for footer section */
 .footer-des {
@@ -212,29 +227,27 @@ input{
   background-color: black;
   color: white;
   margin-top: 50px;
-  
 }
 span {
   color: #e55473;
 }
-.footer-des-title{
-
-font-family: Lato;
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+.footer-des-title {
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
-.footer-des-p-1{
+.footer-des-p-1 {
   margin-top: 20px;
 }
-.footer-des-p-2{
-  color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-top: 40px;
+.footer-des-p-2 {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 40px;
 }
