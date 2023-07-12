@@ -12,7 +12,6 @@
   border-radius: 5px;
   width: 150px;
   color: #fff;
-
   font-weight: 700;
 }
 
@@ -69,7 +68,6 @@
   height: 428px;
   justify-content: space-around;
   align-items: center;
-
   margin-left: 350px;
   padding: 0px;
 }
@@ -134,9 +132,8 @@
   color: #272727;
   font-family: Lato;
   font-size: 40px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
+  l
 }
 .sec-3-para {
   width: 634px;
@@ -165,7 +162,6 @@
   width: 1440px;
   list-style: none;
   height: 380px;
-  flex-shrink: 0;
   display: flex;
   gap: 20px;
   margin: auto;
@@ -198,9 +194,8 @@
   text-align: center;
   font-family: Lato;
   font-size: 40px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+  font-weight: 800px;
+  
 }
 .sec-5-t-para {
   color: rgba(39, 39, 39, 0.6);
